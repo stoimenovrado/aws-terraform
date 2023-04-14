@@ -2,8 +2,8 @@
 
 #Install mariadb and git
 sudo apt-get update -y
-sudo apt-get upgrade -y
 sudo apt-get install -y mariadb-server
+sudo mysql_secure_installation
 sudo apt-get install git -y
 
 #Start MariaDB
